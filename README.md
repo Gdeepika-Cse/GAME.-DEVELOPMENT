@@ -26,31 +26,43 @@
 **Program :**
 
 #include <stdio.h>
+
 #include <conio.h>
+
 #include <graphics.h>
+
 #include <stdlib.h>
+
 #include <math.h>
+
 int main()
+
    {
      int gd = DETECT, gm;
      int xa, xb, ya, yb;
      int dx, dy, x, y, xend, p;
 
-initgraph(&gd, &gm, "C:\\Turboc3\\BGI");  // Path may vary in your setup
+initgraph(&gd, &gm, "C:\\Turboc3\\BGI");  
 
 printf("Enter the first endpoint (xa, ya): ");
+
 scanf("%d %d", &xa, &ya);
+
 printf("Enter the second endpoint (xb, yb): ");
+
 scanf("%d %d", &xb, &yb);
 
 dx = abs(xb - xa);
+
 dy = abs(yb - ya);
+
 p = 2 * dy - dx;
 
 if (xa > xb) {
     x = xb;
     y = yb;
     xend = xa;
+    
 } else {
     x = xa;
     y = ya;
@@ -71,7 +83,9 @@ while (x < xend) {
 }
 
 getch();
+
 closegraph();
+
 return 0;
 
 **Output :**
