@@ -3,11 +3,11 @@
 
 # EX 2 : Bresenham‘s Line Drawing Algorithm
 
-**AIM :**
+## AIM :
 
  To  implement the Bresenham’s  algorithm for line using a c coding.
 
-**ALGORITHM :**
+## ALGORITHM :
 
    Step 1 : Start.
    
@@ -23,7 +23,7 @@
 
    Step 7 : stop.
 
-**Program :**
+## Program :
 
 #include <stdio.h>
 
@@ -88,9 +88,9 @@ closegraph();
 
 return 0;
 
-**Output :**
+## Output :
 
 ![Screenshot 2025-04-27 172358](https://github.com/user-attachments/assets/baa35be7-ddbb-4a92-96e0-cb1b6084f8ff)
 
-**Result :**
+## Result :
 Thus the Bresenham’s algorithm for line using a c coding is implemented successfully.
